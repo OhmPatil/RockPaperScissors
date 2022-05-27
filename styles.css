@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    border: 2px solid black;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn{
+    /* border: 2px solid blue; */
+}
+
+#rock{
+    font-size: 48px;
+    border-radius: 15px;
+    padding: 10px;
+    background: pink;
+}
+
+#paper{
+    font-size: 48px;
+    border-radius: 15px;
+    padding: 10px;
+    background: pink;
+}
+
+#scissors{
+    font-size: 48px;
+    border-radius: 15px;
+    padding: 10px;
+    background: pink;
+}
