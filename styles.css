@@ -1,7 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+}
+
 .container{
     display: flex;
     border: 2px solid black;
-    height: 500px;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -30,4 +39,16 @@
     border-radius: 15px;
     padding: 10px;
     background: pink;
+}
+
+.computer-choice{
+    font-family: sans-serif;
+}
+
+.user-choice{
+    font-family: sans-serif;
+}
+
+.result{
+    font-family: sans-serif;
 }
