@@ -17,8 +17,8 @@ body{
 
 .button{
     font-family: monospace;
-    font-size: 38px;
-    padding: 15px;
+    font-size: 26px;
+    padding: 10px;
     border-radius: 20px;
     background-color: black;
     border: 2px solid blue;
