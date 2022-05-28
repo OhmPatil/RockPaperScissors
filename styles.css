@@ -16,8 +16,9 @@ body{
 }
 
 .button{
-    font-size: 32px;
-    padding: 20px;
+    font-family: monospace;
+    font-size: 38px;
+    padding: 15px;
     border-radius: 20px;
     background-color: black;
     border: 2px solid blue;
@@ -29,6 +30,7 @@ body{
     border-color: red;
     transform: scale(1.1);
 }
+
 
 .computer-choice{
     font-family: sans-serif;
