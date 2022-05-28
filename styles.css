@@ -3,52 +3,53 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
-    width: 100vw;
-    height: 100vh;
+    /* min-width: 100vw; */
+    min-height: 100vh;
+    background: black;
 }
 
 .container{
     display: flex;
-    border: 2px solid black;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.btn{
-    /* border: 2px solid blue; */
+.button{
+    font-size: 32px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+    border: 2px solid blue;
+    color: grey;
 }
 
-#rock{
-    font-size: 48px;
-    border-radius: 15px;
-    padding: 10px;
-    background: pink;
-}
-
-#paper{
-    font-size: 48px;
-    border-radius: 15px;
-    padding: 10px;
-    background: pink;
-}
-
-#scissors{
-    font-size: 48px;
-    border-radius: 15px;
-    padding: 10px;
-    background: pink;
+.button:hover{
+    color: white;
+    border-color: red;
+    transform: scale(1.1);
 }
 
 .computer-choice{
     font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
 }
 
 .user-choice{
     font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 15px;
+    color: white;
 }
 
 .result{
     font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
 }
